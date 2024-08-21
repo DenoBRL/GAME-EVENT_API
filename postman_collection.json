@@ -1,0 +1,1043 @@
+{
+    "info": {
+        "name": "Laravel API",
+        "description": "Postman collection for Laravel API",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "User",
+            "item": [
+                {
+                    "name": "api\/user",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/user",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "user"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Register",
+            "item": [
+                {
+                    "name": "api\/register",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/register",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "register"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Login",
+            "item": [
+                {
+                    "name": "api\/login",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/login",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "login"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Currentuser",
+            "item": [
+                {
+                    "name": "api\/currentuser",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/currentuser",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "currentuser"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Logout",
+            "item": [
+                {
+                    "name": "api\/logout",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/logout",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "logout"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Users",
+            "item": [
+                {
+                    "name": "users.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/users",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "users"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "users.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/users",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "users"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "users.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/users\/{user}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "users",
+                                "{user}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "users.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/users\/{user}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "users",
+                                "{user}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "users.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/users\/{user}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "users",
+                                "{user}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Comments",
+            "item": [
+                {
+                    "name": "comments.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/comments",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "comments"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "comments.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/comments",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "comments"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "comments.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/comments\/{comment}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "comments",
+                                "{comment}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "comments.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/comments\/{comment}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "comments",
+                                "{comment}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "comments.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/comments\/{comment}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "comments",
+                                "{comment}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Opinions",
+            "item": [
+                {
+                    "name": "opinions.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/opinions",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "opinions"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "opinions.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/opinions",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "opinions"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "opinions.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/opinions\/{opinion}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "opinions",
+                                "{opinion}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "opinions.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/opinions\/{opinion}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "opinions",
+                                "{opinion}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "opinions.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/opinions\/{opinion}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "opinions",
+                                "{opinion}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Kinds",
+            "item": [
+                {
+                    "name": "kinds.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/kinds",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "kinds"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "kinds.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/kinds",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "kinds"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "kinds.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/kinds\/{kind}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "kinds",
+                                "{kind}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "kinds.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/kinds\/{kind}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "kinds",
+                                "{kind}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "kinds.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/kinds\/{kind}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "kinds",
+                                "{kind}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Games",
+            "item": [
+                {
+                    "name": "games.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/games",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "games"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "games.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/games",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "games"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "games.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/games\/{game}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "games",
+                                "{game}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "games.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/games\/{game}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "games",
+                                "{game}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "games.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/games\/{game}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "games",
+                                "{game}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Events",
+            "item": [
+                {
+                    "name": "events.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/events",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "events"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "events.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/events",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "events"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "events.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/events\/{event}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "events",
+                                "{event}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "events.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/events\/{event}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "events",
+                                "{event}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "events.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/events\/{event}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "events",
+                                "{event}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Categories",
+            "item": [
+                {
+                    "name": "categories.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/categories",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "categories"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "categories.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/categories",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "categories"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "categories.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/categories\/{category}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "categories",
+                                "{category}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "categories.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/categories\/{category}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "categories",
+                                "{category}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "categories.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/categories\/{category}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "categories",
+                                "{category}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Address",
+            "item": [
+                {
+                    "name": "address.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/address",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "address"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "address.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/address",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "address"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "address.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/address\/{address}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "address",
+                                "{address}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "address.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/address\/{address}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "address",
+                                "{address}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "address.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/address\/{address}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "address",
+                                "{address}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
