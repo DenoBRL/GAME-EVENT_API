@@ -13,7 +13,7 @@ class OpinionController extends Controller
      */
     public function index()
     {
-        $opinions = Opinion::with(['user'])->get();
+        $opinions = Opinion::with(['user'])->paginate();
 
         return response()->json($opinions);
     }

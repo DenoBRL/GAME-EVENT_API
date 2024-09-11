@@ -35,4 +35,4 @@ Route::apiResource("kinds", KindController::class);
 Route::apiResource("games", GameController::class);
 Route::apiResource("events", EventController::class);
 Route::apiResource("categories", CategoryController::class);
-Route::apiResource("address", AddressController::class);
+Route::apiResource("addresses", AddressController::class);

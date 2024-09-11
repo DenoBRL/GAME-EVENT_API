@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers\API;
 
-use App\Http\Controllers\Controller;
+use App\Models\Game;
+use App\Models\User;
 use App\Models\Event;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\Address;
 
 class EventController extends Controller
 {
@@ -13,7 +16,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        $events = Event::with(['address', 'game', 'user'])->get();
+        $events = Event::with(['address', 'game', 'user'])->paginate();
 
         return response()->json($events);
     }
@@ -44,7 +47,16 @@ class EventController extends Controller
      */
     public function show(Event $event)
     {
-        return response()->json($event);
+        $user = User::find($event->user_id);
+        $game = Game::find($event->game_id);
+        $address = Address::find($event->address_id);
+
+        return response()->json([
+            'event' => $event,
+            'user' => $user->pseudo,
+            'address' => $address,
+            'game' => $game->name_game,
+        ]);
     }
 
     /**
