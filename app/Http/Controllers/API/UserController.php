@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\API;
 
-use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Models\Address;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class UserController extends Controller
 {
@@ -12,7 +13,7 @@ class UserController extends Controller
     {
         $this->user = $user;
     }
-    public function currentUser()
+    public function currentuser()
     {
         return response()->json([
             'meta' => [
@@ -26,9 +27,6 @@ class UserController extends Controller
         ]);
     }
 
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $users = User::with(['role'])->get();
@@ -36,9 +34,6 @@ class UserController extends Controller
         return response()->json($users);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
         $request->validate([
@@ -70,17 +65,17 @@ class UserController extends Controller
         ]);
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(User $user)
     {
         return response()->json($user);
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
+    public function addressByUserId($user)
+    {
+        $address = Address::where('user_id', $user)->get();
+        return response()->json($address);
+    }
+
     public function update(Request $request, User $user)
     {
         $request->validate([
